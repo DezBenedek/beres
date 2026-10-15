@@ -1,0 +1,11 @@
+<!doctype html><html lang="hu"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rendelés ellenőrzése – helyi bemutató</title><link rel="stylesheet" href="/extension/page.css"></head><body>
+<header><a href="/kilepes">Kilépés</a><nav>Felesleges menü</nav></header>
+<div id="container"><div class="v-page-heading"><h1>Rendelés áttekintése</h1></div>
+<form method="POST" action="https://www.beresalexandra.hu/megrendeles"><input type="hidden" name="_token" value="TEST_ONLY_NOT_A_REAL_TOKEN"><input type="hidden" name="week_id" value="806">
+<div class="container"><p><strong>Helyi teszt: az alábbi példa nem valódi rendelés.</strong></p><p>Ellenőrizze a szállítási adatokat és az összeget.</p>
+<table id="carttable"><thead><tr><th>Nap</th><th>Étel</th><th>Adag</th><th>Ár</th></tr></thead><tbody><tr><td>Hétfő</td><td>Karfiolkrémleves</td><td>1 db</td><td>850 Ft</td></tr></tbody></table>
+<p><label for="address">Szállítási cím</label><input id="address" name="address" required autocomplete="street-address" value="Teszt utca 1."></p>
+<p><label><input name="terms" type="checkbox" required> Elfogadom a feltételeket (helyi teszt).</label></p>
+<a href="/kovetkezo_etlap">Vissza az étlaphoz</a> <button class="btn btn-primary" type="submit">Megrendelés</button></div></form>
+<div class="footer-wrap">Reklám és közösségi linkek</div></div>
+<script src="/tests/fixtures/native.js"></script><script src="/extension/adapter.js"></script><script src="/extension/content.js"></script></body></html>

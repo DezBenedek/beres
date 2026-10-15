@@ -1,0 +1,12 @@
+{
+  "name": "beres-egyszeru-rendeles",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Egyszerű, akadálymentes ételrendelési böngészőbővítmény.",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "safari:project": "node scripts/package-safari.mjs"
+  }
+}
